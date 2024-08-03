@@ -1,0 +1,99 @@
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+.nav-button{
+    padding: 15px 24px 15px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    border-radius: 8px;
+background: rgb(255, 66, 64);
+    align-items: right;
+}
+.nav-title{
+    list-style: none;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 800;
+    color: black;
+}
+.container-fluid {
+    justify-content: space-around;
+}
+.carousel-item{
+    position: relative;
+    width: fit-content;
+
+}
+.carousel-content{
+    border-radius: 16px;
+    width: 550px;
+    position: absolute;
+    background: #131318;
+    margin-top: -250px;
+    padding: 32px;
+    margin-left: 650px;
+}
+.carousel-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 800;
+}
+.carousel-content p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+}
+@media  screen (max-width:576px) {
+    .carousel-content{
+        position: relative;
+        width: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+/* Main Section Styles */
+
+/* Products Section */
+.price{
+    color: rgb(255, 66, 64);
+    font-size: 18px;
+    font-weight: 800;
+}
+.delevery{
+    color: rgba(19, 19, 24, 0.5); 
+    font-size: 16px;
+    font-weight: 500; 
+}
+.card-title{
+    color: rgb(19, 19, 24);
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+.card-text{
+    color: rgba(19, 19, 24, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+}
+.title{
+    color: rgb(19, 19, 24);
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.des{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-title {
+    border-top: 1px dashed rgba(19, 19, 24, 0.2);
+    border-bottom: 1px dashed rgba(19, 19, 24, 0.2);
+}
+      
+
